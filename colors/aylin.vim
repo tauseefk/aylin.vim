@@ -225,7 +225,7 @@ let colorgroup['LspFloatWinBorder']          = {"GUIFG": _sap, "GUIBG":  _sap }
 let colorgroup['LspFloatWinBorder']          = {"GUIFG": _sap, "GUIBG":  _sap }
 
  let colorgroup['BufferLineIndicatorSelected']   = {"GUIFG": _l_sky}
- let colorgroup['BufferLineFill']                = {"GUIBG":  _pink}
+ let colorgroup['BufferLineFill']                = {"GUIBG":  _gray_dark }
 
 "used for highlighting the current line in terminal-debug"
 let colorgroup['debugPC']                    = {"GUIBG":  _black}
@@ -253,10 +253,10 @@ let colorgroup['DiagnosticVirtualTextWarn']         = {"GUIFG": _marzipan,"GUIBG
 let colorgroup['DiagnosticVirtualTextInfo']         = {"GUIFG": _sky,"GUIBG":  s:hex_color_darken(_sky, 0.80) }
 let colorgroup['DiagnosticVirtualTextHint']         = {"GUIFG": _d_turquoise,"GUIBG":  s:hex_color_darken(_d_turquoise, 0.80) }
 
-let colorgroup['DiagnosticUnderlineError']        = {"style":  "undercurl", "sp": _pink }
-let colorgroup['DiagnosticUnderlineWarn']         = {"style":  "undercurl", "sp": _marzipan }
-let colorgroup['DiagnosticUnderlineInfo']         = {"style":  "undercurl", "sp": _sky }
-let colorgroup['DiagnosticUnderlineHint']         = {"style":  "undercurl", "sp": _d_turquoise }
+" let colorgroup['DiagnosticUnderlineError']        = {"GUIBG": _semiblack, "GUIFG": _pink }
+" let colorgroup['DiagnosticUnderlineWarn']         = {"GUIBG":  _semiblack, "GUIFG": _marzipan }
+" let colorgroup['DiagnosticUnderlineInfo']         = {"GUIBG":  _semiblack, "GUIFG": _sky }
+" let colorgroup['DiagnosticUnderlineHint']         = {"GUIBG":  _semiblack, "GUIFG": _d_turquoise }
 
 " === Highlighting Links ==="
 hi link Boolean               Number
